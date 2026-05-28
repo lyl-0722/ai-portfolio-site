@@ -1,53 +1,114 @@
 const projects = {
   "ai-design": {
-    title: "AI-assisted automotive form design",
-    desc: "Explored how concept expansion, direction refinement, and 3D generation can be stitched into one repeatable design workflow.",
+    title: "AI 辅助汽车造型设计方案",
+    desc: "围绕汽车造型前期方案，把概念发散、方向筛选、视觉生成和 3D 方案探索串成一条可演示的 AI 设计协作链路。重点不是单次出图，而是让设计判断、提示词资产和方案迭代过程可以被复用。",
     evidence: ["proposal", "workflow", "3d", "evaluation"],
+    screenshots: [
+      "assets/projects/ai-design/1.png",
+      "assets/projects/ai-design/2.png",
+      "assets/projects/ai-design/3.png",
+      "assets/projects/ai-design/4.png"
+    ],
     link: "#work"
   },
   idock: {
-    title: "iDock AIGC module",
-    desc: "Designed multimodal AIGC entry points and result loops for a desktop hardware experience, including voice input and generated output feedback.",
+    title: "iDock 端 AIGC 模块",
+    desc: "围绕桌面智能硬件，设计语音输入、内容生成、结果反馈和多模态入口的 AIGC 产品体验。项目重点在于把硬件交互、生成任务和用户反馈连成一个顺手的工作入口，而不是孤立的 AI 功能按钮。",
     evidence: ["hardware", "aigc", "voice ui", "feedback"],
+    screenshots: [
+      "assets/projects/idock/1.jpg",
+      "assets/projects/idock/2.jpg",
+      "assets/projects/idock/3.jpg",
+      "assets/projects/idock/4.jpg",
+      "assets/projects/idock/5.jpg",
+      "assets/projects/idock/6.jpg",
+      "assets/projects/idock/7.jpg",
+      "assets/projects/idock/8.jpg"
+    ],
     link: "#work"
   },
   "video-agent": {
-    title: "Internal AIGC agent",
-    desc: "Turned video production into a structured agent workflow spanning input, shot breakdown, keyframe generation, preview, and revision.",
+    title: "内部 AIGC Agent",
+    desc: "把内容生产拆成输入、拆解、生成、预览和修订的 Agent 工作流，降低团队使用 AIGC 的门槛。通过把复杂步骤拆成可执行节点，让非技术同事也能理解任务进度、确认产出，并把经验沉淀为可复用流程。",
     evidence: ["agent", "workflow", "video", "eval"],
+    screenshots: [
+      "assets/projects/video-agent/1.png",
+      "assets/projects/video-agent/2.png",
+      "assets/projects/video-agent/3.png",
+      "assets/projects/video-agent/4.png",
+      "assets/projects/video-agent/5.png"
+    ],
     link: "#work"
   },
   management: {
-    title: "AI team management architecture",
-    desc: "Built a reusable team AI collaboration layer around Skill Hub, Agent orchestration, a GitHub skill library, and dashboard-based management.",
+    title: "AI 团队管理架构",
+    desc: "围绕 Skill Hub、团队 Agent、知识库、GitHub 版本和数据看板，搭建可继承、可追踪的团队 AI 协作系统。这个项目尝试把个人经验、团队偏好和工具调用沉淀成组织资产，让 AI 提效不再依赖单个人的临场发挥。",
     evidence: ["Skill Hub", "Agent orchestration", "GitHub skill library", "Dashboard"],
+    screenshots: [
+      "assets/projects/management/1.jpg",
+      "assets/projects/management/2.jpg",
+      "assets/projects/management/3.png",
+      "assets/projects/management/4.png"
+    ],
     link: "https://github.com/lyl-0722/team-skills-demo",
     image: "assets/team-architecture.png",
     dashboard: "https://lyl-0722.github.io/skill-dashboard/",
     dashboardLabel: "View dashboard"
   },
   skills: {
-    title: "20+ team skills built and iterated",
-    desc: "Maintained a reusable set of team skills for research, reporting, competitor analysis, product detail generation, and recurring AI monitoring tasks.",
+    title: "20+ 团队 Skill 创建与维护",
+    desc: "沉淀并维护覆盖情报追踪、竞品分析、详情页生成、周报生成等场景的团队 Skill，并持续迭代。每个 Skill 都围绕真实业务问题设计输入、执行步骤和输出格式，让同事能以更低成本复用 AI 能力。",
     evidence: ["20+ skills", "iteration", "reuse", "tracking"],
+    screenshots: [
+      "assets/projects/skills/1.png",
+      "assets/projects/skills/2.png",
+      "assets/projects/skills/3.png",
+      "assets/projects/skills/4.jpg",
+      "assets/projects/skills/5.jpg"
+    ],
     link: "https://lyl-0722.github.io/skill-dashboard/"
   },
   thesis: {
-    title: "Thesis: foundational algorithm application",
-    desc: "Used data pipelines, XGBoost, and explainability analysis to study urban internal flood mechanisms and model-level causality hints.",
+    title: "毕业论文：基础算法应用",
+    desc: "基于城市数据、XGBoost 和可解释性分析，完成从数据处理、建模到影响因素解释的研究闭环。这个项目体现我对算法建模、数据清洗和模型解释的基础理解，也帮助我更清楚地判断 AI 产品里的数据边界。",
     evidence: ["xgboost", "shap", "data", "explainability"],
+    screenshots: [
+      "assets/projects/thesis/1.jpg",
+      "assets/projects/thesis/2.jpg",
+      "assets/projects/thesis/3.png",
+      "assets/projects/thesis/4.png",
+      "assets/projects/thesis/5.png",
+      "assets/projects/thesis/6.png",
+      "assets/projects/thesis/7.png",
+      "assets/projects/thesis/8.png",
+      "assets/projects/thesis/9.png",
+      "assets/projects/thesis/10.png",
+      "assets/projects/thesis/11.png"
+    ],
     link: "#experiment"
   },
   coze: {
-    title: "Coze resume optimization agent",
-    desc: "Built a career tool for JD matching, resume rewriting, gap analysis, and learning path generation for students and career switchers.",
+    title: "Coze 简历优化 Agent",
+    desc: "搭建面向求职场景的简历优化 Agent，支持 JD 匹配、简历改写、差距分析和学习路径生成。它更像一个轻量职业教练，通过结构化提问和多轮改写，把模糊经历转化为更贴近岗位语言的表达。",
     evidence: ["coze", "resume", "career", "agent"],
+    screenshots: [
+      "assets/projects/coze/1.png",
+      "assets/projects/coze/2.png",
+      "assets/projects/coze/3.png"
+    ],
     link: "#experiment"
   },
   anniversary: {
-    title: "SZU 40th anniversary AI interaction",
-    desc: "Designed an on-site multimodal interaction flow for capture, generation, download, and rapid iteration under public event conditions.",
+    title: "深大 40 周年 AI 交互",
+    desc: "在真实线下活动中设计拍摄、生成、下载领取与现场体验迭代的多模态 AI 交互流程。项目重点是把生成式 AI 放进人流密集的现场场景中，处理等待、扫码、领取和反馈这些真实体验问题。",
     evidence: ["offline", "multimodal", "aigc", "mvp"],
+    screenshots: [
+      "assets/projects/anniversary/1.png",
+      "assets/projects/anniversary/2.png",
+      "assets/projects/anniversary/3.jpg",
+      "assets/projects/anniversary/4.jpg",
+      "assets/projects/anniversary/5.jpg"
+    ],
     link: "#experiment"
   }
 };
@@ -292,16 +353,16 @@ if (experienceGrid) {
 
 projects.management = {
   ...projects.management,
-  title: "AI team management architecture",
-  desc: "Built a team-level AI operating framework around Skill Hub, Agent orchestration, GitHub skill versioning, knowledge retrieval, and a dashboard for tracking usage, scoring, contributors, and document output.",
+  title: "AI 团队管理架构",
+  desc: "以 Skill Hub、团队 Agent、GitHub 技能库、知识库和数据看板为核心，把团队 AI 协作变成可沉淀、可复盘、可度量的管理系统。它解决的是“AI 能力如何在团队里持续传递”的问题：任务有入口、过程有记录、产出有评分、经验能回流。",
   evidence: ["Skill Hub", "Agent orchestration", "GitHub skill library", "Knowledge base", "Dashboard"],
   link: "https://github.com/lyl-0722/team-skills-demo",
   dashboard: "https://lyl-0722.github.io/skill-dashboard/",
   screenshots: [
-    "assets/management-01.jpg",
-    "assets/management-02.jpg",
-    "assets/management-03.png",
-    "assets/management-04.png"
+    "assets/projects/management/1.jpg",
+    "assets/projects/management/2.jpg",
+    "assets/projects/management/3.png",
+    "assets/projects/management/4.png"
   ]
 };
 
@@ -310,6 +371,10 @@ const dialogTitle = document.getElementById("dialogTitle");
 const dialogDesc = document.getElementById("dialogDesc");
 const dialogGallery = document.getElementById("dialogGallery");
 const dialogEvidence = document.getElementById("dialogEvidence");
+const dialogPrev = document.querySelector(".dialog-arrow-left");
+const dialogNext = document.querySelector(".dialog-arrow-right");
+let dialogIndex = 0;
+let dialogScrollTimer = 0;
 
 let cursorFrame = 0;
 window.addEventListener("pointermove", (event) => {
@@ -360,7 +425,45 @@ const renderDialogGallery = (item) => {
     dialogGallery.appendChild(figure);
   });
 
+  dialogIndex = 0;
   dialogGallery.scrollLeft = 0;
+};
+
+const setDialogArrowState = (count) => {
+  if (!dialogPrev || !dialogNext) return;
+  const maxIndex = Math.max(0, count - 1);
+  dialogPrev.classList.toggle("is-hidden", dialogIndex <= 0 || count <= 1);
+  dialogNext.classList.toggle("is-hidden", dialogIndex >= maxIndex || count <= 1);
+};
+
+const updateDialogArrows = () => {
+  if (!dialogGallery) return;
+  const count = dialogGallery.querySelectorAll(".dialog-shot").length;
+  const maxIndex = Math.max(0, count - 1);
+  const width = Math.max(1, dialogGallery.clientWidth);
+  dialogIndex = Math.min(maxIndex, Math.max(0, Math.round(dialogGallery.scrollLeft / width)));
+  setDialogArrowState(count);
+};
+
+const moveDialogGallery = (direction) => {
+  if (!dialogGallery) return;
+  const count = dialogGallery.querySelectorAll(".dialog-shot").length;
+  const maxIndex = Math.max(0, count - 1);
+  dialogIndex = Math.min(maxIndex, Math.max(0, dialogIndex + direction));
+  dialogGallery.scrollTo({ left: dialogGallery.clientWidth * dialogIndex, behavior: "smooth" });
+  setDialogArrowState(count);
+};
+
+const resetDialogGallery = () => {
+  if (!dialogGallery) return;
+  dialogIndex = 0;
+  dialogGallery.style.scrollBehavior = "auto";
+  dialogGallery.scrollLeft = 0;
+  dialogGallery.scrollTo({ left: 0, behavior: "auto" });
+  dialogGallery.getBoundingClientRect();
+  dialogGallery.style.scrollBehavior = "";
+  updateDialogArrows();
+  requestAnimationFrame(updateDialogArrows);
 };
 
 if (dialogGallery) {
@@ -369,11 +472,28 @@ if (dialogGallery) {
     (event) => {
       if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
       event.preventDefault();
-      dialogGallery.scrollBy({ left: event.deltaY, behavior: "smooth" });
+      moveDialogGallery(event.deltaY > 0 ? 1 : -1);
     },
     { passive: false }
   );
+
+  dialogGallery.addEventListener("scroll", () => {
+    clearTimeout(dialogScrollTimer);
+    dialogScrollTimer = window.setTimeout(updateDialogArrows, 120);
+  });
 }
+
+dialogPrev?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  moveDialogGallery(-1);
+});
+
+dialogNext?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  moveDialogGallery(1);
+});
+
+window.addEventListener("resize", updateDialogArrows);
 
 document.querySelectorAll(".work-card").forEach((card) => {
   card.addEventListener("mousemove", (event) => {
@@ -402,6 +522,7 @@ document.querySelectorAll(".work-card").forEach((card) => {
 
     document.body.classList.add("dialog-open");
     dialog.showModal();
+    resetDialogGallery();
   });
 });
 
